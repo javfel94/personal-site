@@ -3,117 +3,120 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio</title>
-  
-  
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
-<link rel='stylesheet' href='https://github.com/lipis/bootstrap-social/blob/gh-pages/bootstrap-social.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
+  <title>Javier Felipe</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap-social.css">
 </head>
-
 <body>
-
   
-<div class="container-fluid">
-<nav class="navbar navbar-default" style="background-color: #e3f2fd;">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Javier Felipe</a>
-    </div>   
-      <ul class="nav navbar-nav">
+ <!-- <nav class="navbar navbar-default" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Javier Felipe</a>
+      </div>   
+        <ul class="nav navbar-nav">
+          <li><a href="#">About</a></li>
+          <li><a href="#port">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        < /ul>  
+    </div>
+  </nav> -->
+  <header class="main-header">
+    <h2 class="main-title">Javier Felipe</h2>
+    <nav class="main-navigation">
+      <ul>
         <li><a href="#">About</a></li>
         <li><a href="#port">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
-      </ul>  
+      </ul>
+    </nav>
+  </header>
+  <div class="cover">
+    <img src="img/cover.jpg" alt="cover-picture" width="100%">
   </div>
-</nav>
-<div class="jumbotron text-center">
-    <h1>Welcome to my portfolio</h1> 
-    <p>My name is Javier. I'm a 23-year-old Spanish boy living in Trondheim, Norway. I like programming, working out and listening to electronic music!</p> 
-</div>
-<h2 class="text-center" id="port">Portfolio</h2>
-<div class="row">
-  <div class="col-xs-4">
-    <div class="thumbnail">
-      <a href="#">
-        <img src="https://picsum.photos/200/300/?image=0" alt="img1">
-      </a>
+  <div class="container">
+    <div class="jumbotron text-center">
+        <h1>Welcome to my portfolio</h1> 
+        <p>My name is Javier. I'm a 23-year-old Spanish boy living in Trondheim, Norway. I like programming, working out and listening to electronic music!</p> 
+    </div>
+    <h2 class="text-center" id="port">Portfolio</h2>
+    <div class="row">
+      <div class="col-xs-4">
+        <div class="thumbnail">
+          <a href="#">
+            <img src="https://picsum.photos/200/300/?image=0" alt="img1">
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="thumbnail">
+          <a href="#">
+            <img src="https://picsum.photos/200/300/?image=1" alt="img2">
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="thumbnail">
+          <a href="#">
+            <img src="https://picsum.photos/200/300/?image=2" alt="img3">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4">
+        <div class="thumbnail">
+          <a href="#">
+            <img src="https://picsum.photos/200/300/?image=10" alt="img1">
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="thumbnail">
+          <a href="#">
+            <img src="https://picsum.photos/200/300/?image=11" alt="img2">
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="thumbnail">
+          <a href="#">
+            <img src="https://picsum.photos/200/300/?image=12" alt="img3">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color: #edeedb;">
+      <h2 class="text-center" id="contact">Contact</h2>
+      <p class="text-center">I would be happy to answer your questions!</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="name" class="form-control" id="name" placeholder="Your name here">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="comment">Your message:</label>
+          <textarea class="form-control" id="comment" rows="8" placeholder="Write your message here"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div>
+      <a href="#" class="btn btn-block btn-social btn-twitter"> <i class="fa fa-twitter"></i>Twitter</a>
+      <a href="#" class="btn btn-block btn-social btn-twitter"> <i class="fa fa-twitter"></i>Twitter</a>
+      <a href="#" class="btn btn-block btn-social btn-twitter"> <i class="fa fa-twitter"></i>Twitter</a>
     </div>
   </div>
-  <div class="col-xs-4">
-    <div class="thumbnail">
-      <a href="#">
-        <img src="https://picsum.photos/200/300/?image=1" alt="img2">
-      </a>
-    </div>
-  </div>
-  <div class="col-xs-4">
-    <div class="thumbnail">
-      <a href="#">
-        <img src="https://picsum.photos/200/300/?image=2" alt="img3">
-      </a>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-xs-4">
-    <div class="thumbnail">
-      <a href="#">
-        <img src="https://picsum.photos/200/300/?image=10" alt="img1">
-      </a>
-    </div>
-  </div>
-  <div class="col-xs-4">
-    <div class="thumbnail">
-      <a href="#">
-        <img src="https://picsum.photos/200/300/?image=11" alt="img2">
-      </a>
-    </div>
-  </div>
-  <div class="col-xs-4">
-    <div class="thumbnail">
-      <a href="#">
-        <img src="https://picsum.photos/200/300/?image=12" alt="img3">
-      </a>
-    </div>
-  </div>
-</div>
-  <div class="container-fluid" style="background-color: #edeedb;">
-  <h2 class="text-center" id="contact">Contact</h2>
-  <p class="text-center">I would be happy to answer your questions!</p>
-<form>
-  <div class="form-group">
-    <label for="name">Name:</label>
-    <input type="name" class="form-control" id="name" placeholder="Your name here">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address:</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="comment">Your message:</label>
-    <textarea class="form-control" id="comment" rows="8" placeholder="Write your message here"></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-<br><br>
-</div>
-<div>
-<a href="#" class="btn btn-block btn-social btn-twitter"> <i class="fa fa-twitter"></i>Twitter</a>
-<a href="#" class="btn btn-block btn-social btn-twitter"> <i class="fa fa-twitter"></i>Twitter</a>
-<a href="#" class="btn btn-block btn-social btn-twitter"> <i class="fa fa-twitter"></i>Twitter</a>
-</div>
-</div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-
-  
-
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-
 </html>
