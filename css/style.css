@@ -1,17 +1,36 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.cover img {
+    width: 100%;
+}
+
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
 .main-header {
     background:blue;
     display: flex;
     align-items: center;
     padding: 30px 30px;
     justify-content: space-between;
+    z-index:2;
+    background: transparent;
+    position: fixed;
+    width: 100%;
 }
 
 .main-title {
     color:white;
-}
-
-.main-navigation {
-    float: right;
 }
 
 .main-navigation ul {
@@ -25,3 +44,4 @@
 .main-navigation ul li {
     margin-left: 20px;
 }
+
