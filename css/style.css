@@ -45,3 +45,17 @@ body {
     margin-left: 20px;
 }
 
+.presentation-text {
+    text-align: center;
+}
+
+.more-info {
+    text-align: center;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.personal-info {
+    display: none;
+}
+
