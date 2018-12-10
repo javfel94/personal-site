@@ -2,13 +2,28 @@
   Base Element Styles
 ==================================== */
 
+html,
 body {
-    font-family: 'Dosis', sans-serif;
+    height: 100%;
+}
+
+body {
+    font-family: 'Varela', sans-serif;
+    background-image: url('../img/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
 }
 
 
 .cover img {
     width: 100%;
+}
+
+h2 {
+    font-size: 24;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -18,19 +33,29 @@ body {
 ==================================== */
 
 .main-header {
-    background:blue;
+    background:transparent;
     display: flex;
-    align-items: center;
-    padding: 30px 30px;
-    justify-content: space-between;
-    z-index:2;
-    background: transparent;
-    position: fixed;
-    width: 100%;
+    justify-content: space-between;       
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.main-header .fa {
+    font-size: 40px;
+    margin-left: 10vw;
 }
 
 .main-title {
-    color:white;
+    color:#00253C;
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-navigation {
+    display: none;
 }
 
 .main-navigation ul {
@@ -57,5 +82,13 @@ body {
 
 .personal-info {
     display: none;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media only screen and (min-width: 700px) {
+    
 }
 
