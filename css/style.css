@@ -11,17 +11,13 @@ body {
     font-family: 'Varela', sans-serif;
     background-image: url('../img/cover.jpg');
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
 }
 
-
-.cover img {
-    width: 100%;
-}
-
 h2 {
-    font-size: 24;
+    font-size: 24px;
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -58,6 +54,10 @@ h2 {
     display: none;
 }
 
+.phone-navigation {
+    display: none;
+}
+
 .main-navigation ul {
     display:flex;
     list-style: none;
@@ -84,11 +84,56 @@ h2 {
     display: none;
 }
 
+.footer {
+    height: 20vh;
+    width: 100%;
+    position: absolute; 
+    bottom: 0;
+    background-color: rgba(0, 38, 61, 0.75);
+    border-top: 0.7px solid grey;
+    border-bottom: 0.7px solid grey;
+    text-align: center;
+    display: flex;
+}
+
+.social-media {
+    text-align: center;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.social-media i {
+    font-size: 35px;
+    color: white;
+}
+
 /* ================================= 
   Media Queries
 ==================================== */
 
-@media only screen and (min-width: 700px) {
-    
+@media only screen and (min-width: 650px) {
+    .social-media {
+        width: 550px;
+    }
+
+    .social-media i {
+        font-size: 50px;
+    }
 }
+
+@media only screen and (min-width: 1000px) {
+    h2 {
+        font-size: 36px;
+    }
+
+    .main-header {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
 
